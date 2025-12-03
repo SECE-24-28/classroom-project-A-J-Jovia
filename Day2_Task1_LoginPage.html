@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+
+        body {
+            background-color: #91abb6;
+        }
+
+        .box {
+            width: 400px;
+            padding: 20px;
+            margin: 50px auto;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightblue;
+            text-align: center;
+            transition: width 0.5s, height 0.5s, background-color 0.5s;
+        }
+
+        .box:hover {
+            width: 420px;
+            height: 230px;
+            background-color: lightcoral;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+
+        button{
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h2>Log in</h2>
+        <table>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password"></td>
+            </tr>
+        </table>
+
+        <button onclick="location.href='home.html'">Log In</button>
+    </div>
+
+</body>
+</html>
