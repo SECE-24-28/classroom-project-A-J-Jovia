@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application</title>
+
+    <style>
+        body {
+            background-color: #e3f2f7;
+            font-family: Arial, sans-serif;
+        }
+
+        .form-box {
+            width: 500px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 2px solid #888;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        button{
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="form-box">
+        <h2>Job Application</h2>
+
+        <form>
+
+            <label>Full Name:</label><br>
+            <input type="text" id="name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="text" id="email"><br><br>
+
+            <label>Phone:</label><br>
+            <input type="text" id="phone"><br><br>
+
+            <label>Address:</label><br>
+            <input type="text" id="address"><br><br>
+            
+            <label>Educational Qualification:</label><br>
+            <table>
+                <tr>
+                    <th>Education</th>
+                    <th>Percentage / CGPA</th>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td><input type="text" id="hsc"></td>
+                </tr>
+                <tr>
+                    <td>SSLC</td>
+                    <td><input type="text" id="sslc"></td>
+                </tr>
+                <tr>
+                    <td>UG</td>
+                    <td><input type="text" id="ug"></td>
+                </tr>
+                <tr>
+                    <td>PG</td>
+                    <td><input type="text" id="pg"></td>
+                </tr>
+            </table><br>
+
+            <label>Skills :</label><br>
+            <input type="text" id="skills"><br><br>
+
+            <label>Experience:</label><br>
+            <textarea id="experience"></textarea><br><br>
+
+            <label>Projects:</label><br>
+            <textarea id="projects"></textarea><br><br>
+
+            <label>Certifications:</label><br>
+            <textarea id="certifications"></textarea><br><br>
+
+            <label>Achievements:</label><br>
+            <textarea id="achievements"></textarea><br><br>
+
+            <label>Languages Known :</label><br>
+            <input type="text" id="languages"><br><br>
+
+            <label>Job Vacancy:</label><br>
+            <ol>
+                <li>Software Developer</li>
+                <li>Data Analyst</li>
+                <li>System Administrator</li>
+                <li>Network Engineer</li>
+                <li>Database Administrator</li>
+            </ol>
+            <input type="text" id="jobVacancy" placeholder="Enter the job title"><br><br>
+
+            <label>Expected Salary:</label><br>
+            <input type="text" id="salary"><br><br>
+
+            <label>Upload Resume:</label><br>
+            <button type="button">Choose File</button> No file chosen<br><br>
+
+            <button type="button">Submit Application</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
