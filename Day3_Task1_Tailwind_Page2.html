@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery Page 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @keyframes colorChange {
+            0%   { background-color: #ffb3ba; }
+            25%  { background-color: #baffc9; }
+            50%  { background-color: #bae1ff; }
+            75%  { background-color: #ffffba; }
+            100% { background-color: #ffb3ba; }
+        }
+
+        .bg-animate {
+            animation: colorChange 8s infinite alternate;
+        }
+    </style>
+</head>
+
+<body class="bg-animate">
+
+    <h1 class="text-center text-4xl font-bold pt-6 text-pink-700 drop-shadow-md">
+        My Gallery
+    </h1>
+
+    <div class="text-center mt-4">
+        <a href="Day3_Task1_Tailwind_page1.html" class="px-5 py-2 bg-purple-600 text-white rounded-lg shadow-lg hover:bg-purple-700 transition">
+            Previous
+        </a>
+        <a href="Day3_Task1_Tailwind_page3.html" class="px-5 py-2 bg-pink-600 text-white rounded-lg shadow-lg hover:bg-pink-700 transition">
+            Next
+        </a>
+    </div>
+
+    <div class="grid grid-cols-4 gap-4 p-6">
+
+        <img src="https://i.pinimg.com/1200x/1a/e7/be/1ae7be9ab4fee2c043a9be8d58e1d17a.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+        <img src="https://i.pinimg.com/1200x/97/04/18/970418cee4e5cfb2da1b28d332496dc6.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/86/01/56/86015698d977f53960cbdaf1d7859c0d.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+        <img src="https://i.pinimg.com/1200x/0c/a3/fc/0ca3fc75b9a483ccb7bc02baa725a9cc.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+
+        <img src="https://i.pinimg.com/1200x/5a/2c/a7/5a2ca752e7a8bc78d1e44cca5aebc0ed.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/6f/bc/6c/6fbc6c1f73103202246942d2efc06a2e.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/2a/52/b4/2a52b464767a6cfb52ce91685d6161f5.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/6d/1b/ea/6d1bea72c0090184cba29b150fc4f343.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+
+        <img src="https://i.pinimg.com/736x/48/67/e9/4867e9f7c360b5a0d0c82e66eddbfc2f.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/1c/f9/bb/1cf9bbc7061a8ad28d68a7aa2022ad9c.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/b8/42/f4/b842f4cfc4137c955d8c8140006cec23.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/9f/03/d4/9f03d479f42084d91993ce4397cc30f4.jpg" class="w-full rounded-xl shadow-lg border-4 border-pink-300 hover:scale-105 transition">
+    </div>
+
+</body>
+</html>
